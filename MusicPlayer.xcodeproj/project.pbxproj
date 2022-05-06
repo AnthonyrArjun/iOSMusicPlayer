@@ -9,12 +9,12 @@
 /* Begin PBXBuildFile section */
 		74AA77C2246DC23500E8327F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AA77C1246DC23500E8327F /* AppDelegate.swift */; };
 		74AA77C4246DC23500E8327F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AA77C3246DC23500E8327F /* SceneDelegate.swift */; };
-		74AA77C6246DC23500E8327F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AA77C5246DC23500E8327F /* ViewController.swift */; };
 		74AA77C9246DC23500E8327F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74AA77C7246DC23500E8327F /* Main.storyboard */; };
 		74AA77CB246DC23800E8327F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74AA77CA246DC23800E8327F /* Assets.xcassets */; };
 		74AA77CE246DC23800E8327F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74AA77CC246DC23800E8327F /* LaunchScreen.storyboard */; };
 		74AA77D9246DC23800E8327F /* MusicPlayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AA77D8246DC23800E8327F /* MusicPlayerTests.swift */; };
 		74AA77E4246DC23800E8327F /* MusicPlayerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AA77E3246DC23800E8327F /* MusicPlayerUITests.swift */; };
+		74AA77F2246DFEB600E8327F /* GenreButtonScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74AA77F1246DFEB600E8327F /* GenreButtonScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +38,6 @@
 		74AA77BE246DC23500E8327F /* MusicPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		74AA77C1246DC23500E8327F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		74AA77C3246DC23500E8327F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		74AA77C5246DC23500E8327F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		74AA77C8246DC23500E8327F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		74AA77CA246DC23800E8327F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		74AA77CD246DC23800E8327F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +48,7 @@
 		74AA77DF246DC23800E8327F /* MusicPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MusicPlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		74AA77E3246DC23800E8327F /* MusicPlayerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicPlayerUITests.swift; sourceTree = "<group>"; };
 		74AA77E5246DC23800E8327F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74AA77F1246DFEB600E8327F /* GenreButtonScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenreButtonScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,8 +101,8 @@
 			children = (
 				74AA77C1246DC23500E8327F /* AppDelegate.swift */,
 				74AA77C3246DC23500E8327F /* SceneDelegate.swift */,
-				74AA77C5246DC23500E8327F /* ViewController.swift */,
 				74AA77C7246DC23500E8327F /* Main.storyboard */,
+				74AA77F1246DFEB600E8327F /* GenreButtonScreen.swift */,
 				74AA77CA246DC23800E8327F /* Assets.xcassets */,
 				74AA77CC246DC23800E8327F /* LaunchScreen.storyboard */,
 				74AA77CF246DC23800E8327F /* Info.plist */,
@@ -259,9 +259,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				74AA77C6246DC23500E8327F /* ViewController.swift in Sources */,
 				74AA77C2246DC23500E8327F /* AppDelegate.swift in Sources */,
 				74AA77C4246DC23500E8327F /* SceneDelegate.swift in Sources */,
+				74AA77F2246DFEB600E8327F /* GenreButtonScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
